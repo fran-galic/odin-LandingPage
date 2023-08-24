@@ -1,0 +1,112 @@
+/* sets that when defining the dimensions of the box, the entire box is taken into account, 
+i.e. border and padding and content and not just content */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* !!!!come back to this and check how to set roboto font, 'Roboto'*/
+    font-family:  sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    animation: pulse 1
+}
+
+/* styles for the top of the page: */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    background-color: #1F2937;
+    padding-bottom: 170px;
+}
+
+.header-top {
+    display: flex;
+    padding: 30px 30px 0 30px;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.header-anchor {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-bottom {
+    display: flex;
+    gap: 145px;
+    padding: 0 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 150px;
+}
+
+.hero-img {
+    max-width: 600px;
+    max-height: auto;
+    min-width: 420px;
+    min-height: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 450px;
+    min-width: 325px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-size: 21px;
+    border: 1px solid black;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px black;
+}
