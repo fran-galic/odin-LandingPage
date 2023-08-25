@@ -166,3 +166,36 @@ ul {
     color: #1F2937;
     text-align: center;
 }
+
+/* styles for the middle part of the page: */
+.middle-part {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 30px;
+}
+
+.middle-part-container {
+    max-width: 830px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #474c52;
+    align-self: flex-start;
+}
+
+.author {
+    align-self: flex-end;
+    padding-right: 12px;
+    color: #1F2937;
+    font-size: 22px;
+    font-weight: 800;
+}
