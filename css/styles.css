@@ -110,3 +110,59 @@ ul {
     border-radius: 8px;
     box-shadow: 2px 2px 4px black;
 }
+
+/* styles for the second part of the page: */
+.second-part {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.second-part-bottom {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* !!! Come back later and reduce the size of images and containers if necessary */
+    width: 250px;
+    gap: 20px;
+}
+
+.img-square {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    background: white url('https://images.pexels.com/photos/159108/light-lamp-electricity-power-159108.jpeg?auto=compress&cs=tinysrgb&w=1600')
+                50% 50%/auto 250px no-repeat;
+}
+
+.img-square:hover {
+    filter: invert();
+}
+
+.description-text {
+    text-align: center;
+    color: #34383d;
+    font-size: 19px;
+}
+
+.second-part-top {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
