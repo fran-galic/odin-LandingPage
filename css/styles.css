@@ -11,6 +11,8 @@ body {
     font-family:  sans-serif;
     padding: 0;
     margin: 0;
+    background: #1F2937 url(./../img/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 li {
@@ -32,7 +34,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 150px;
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
     padding-bottom: 160px;
 }
 
@@ -47,7 +49,7 @@ button:hover {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: white;
     font-weight: 900;
 }
 
@@ -63,7 +65,7 @@ ul {
 .header-anchor {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
 }
 
 .header-bottom {
@@ -71,7 +73,7 @@ ul {
     gap: 145px;
     padding: 0 30px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     row-gap: 100px;
 }
 
@@ -103,18 +105,17 @@ ul {
 
 .hero-text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
 }
 
 .top-button {
-    background-color: #3882F6;
+    background-color: #1F2937;
     color: #F9FAF8;
     padding: 10px 30px;
     font-size: 21px;
-    border: 1px solid black;
+    border: none;
     height: auto;
     border-radius: 8px;
-    box-shadow: 2px 2px 4px black;
 }
 
 /* styles for the second part of the page: */
@@ -128,6 +129,7 @@ ul {
     padding-bottom: 130px;
     padding-left: 30px;
     padding-right: 30px;
+    /* background-color: white; */
 }
 
 .second-part-bottom {
@@ -150,7 +152,7 @@ ul {
 .img-square {
     width: 250px;
     height: 250px;
-    border: 5px solid #3882F6;
+    border: 1px solid #1F2937;
     border-radius: 20px;
     background: white url('https://images.pexels.com/photos/159108/light-lamp-electricity-power-159108.jpeg?auto=compress&cs=tinysrgb&w=1600')
                 50% 50%/auto 250px no-repeat;
@@ -162,8 +164,9 @@ ul {
 
 .description-text {
     text-align: center;
-    color: #34383d;
+    color: #1F2937;
     font-size: 19px;
+    font-weight: 600;
 }
 
 .second-part-top {
@@ -175,7 +178,7 @@ ul {
 
 /* styles for the middle part of the page: */
 .middle-part {
-    background-color: #E5E7EB;
+    background-color: rgb(237, 208, 208);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +204,7 @@ ul {
 .author {
     align-self: flex-end;
     padding-right: 12px;
-    color: #1F2937;
+    color: #333b46;
     font-size: 22px;
     font-weight: 800;
 }
@@ -215,7 +218,7 @@ ul {
 }
 
 .blue-container {
-    background-color: #3882F6;
+    background-color: #1F2937;
     padding: 40px 5.91%;
     border-radius: 8px;
     display: flex;
@@ -250,7 +253,7 @@ ul {
 }
 
 .bottom-button {
-    background-color: #3882F6;
+    background-color: #1F2937;
     color: #F9FAF8;
     padding: 8px 30px;
     font-size: 21px;
