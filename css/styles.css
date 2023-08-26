@@ -23,10 +23,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    animation: pulse 1
-}
-
 /* styles for the top of the page: */
 .header {
     display: flex;
@@ -34,13 +30,19 @@ button:hover {
     gap: 150px;
     background-color: #1F2937;
     padding-bottom: 160px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .header-top {
+    width: 1195px;
+    flex-shrink: 1;
     display: flex;
-    padding: 30px 30px 0 30px;
+    padding: 30px 0 0 0;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -49,6 +51,7 @@ button:hover {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+    flex: 1 1 auto;
 }
 
 ul {
@@ -69,7 +72,6 @@ ul {
 .header-bottom {
     display: flex;
     gap: 145px;
-    padding: 0 30px;
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 100px;
