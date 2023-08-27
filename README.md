@@ -2,6 +2,9 @@
 This is a test landing page made according to The odin project curriculum.
 The goal was to apply all the knowledge of using HTML and CSS learned so far.
 The topic of hiking was chosen for this website.
+
+Live site: https://fran-galic.github.io/odin-LandingPage/
+
 The company name is made up and all of the images used on the website are free to use.
 Image sources and authors (if they exist) are listed below:
 
