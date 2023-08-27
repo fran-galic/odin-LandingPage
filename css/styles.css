@@ -7,12 +7,12 @@ i.e. border and padding and content and not just content */
 body {
     display: flex;
     flex-direction: column;
-    /* !!!!come back to this and check how to set roboto font, 'Roboto'*/
     font-family:  sans-serif;
     padding: 0;
     margin: 0;
     background: #1F2937 url(./../img/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
+    color: #1F2937;
 }
 
 li {
@@ -23,18 +23,21 @@ li {
 
 button {
     cursor: pointer;
+    transition: 0.15s;
 }
 
 button:hover {
-    animation: pulse 1
+    transform: translateY(-8%);
+    background-color: white;
+    color: #1F2937;
 }
+
 
 /* styles for the top of the page: */
 .header {
     display: flex;
     flex-direction: column;
     gap: 150px;
-    /* background-color: #1F2937; */
     padding-bottom: 160px;
 }
 
@@ -48,7 +51,7 @@ button:hover {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     font-weight: 900;
 }
@@ -68,6 +71,10 @@ ul {
     color: white;
 }
 
+.header-anchor:hover {
+    color: #1F2937;
+}
+
 .header-bottom {
     display: flex;
     gap: 145px;
@@ -79,13 +86,13 @@ ul {
 
 .img-container {
     max-width: 600px;
-    max-height: auto;
-}
-
-.hero-img {
-    max-width: 100%;
-    max-height: auto;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;;
+    flex-grow: 1;
     border-radius: 8px;
+    background: #1F2937 url(./../img/mountain-logo.jpg) center center no-repeat scroll;
+    background-size: cover;
 }
 
 .hero {
@@ -122,19 +129,18 @@ ul {
 .second-part {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 80px;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 130px;
     padding-left: 30px;
     padding-right: 30px;
-    /* background-color: white; */
 }
 
 .second-part-bottom {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -144,27 +150,45 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* !!! Come back later and reduce the size of images and containers if necessary */
-    width: 250px;
+    width: 350px;
     gap: 20px;
+    flex-wrap: wrap;
+    transition: 0.2s;
+}
+
+.img-text-container:hover {
+    color: white;
 }
 
 .img-square {
-    width: 250px;
+    width: 350px;
     height: 250px;
     border: 1px solid #1F2937;
     border-radius: 20px;
-    background: white url('https://images.pexels.com/photos/159108/light-lamp-electricity-power-159108.jpeg?auto=compress&cs=tinysrgb&w=1600')
-                50% 50%/auto 250px no-repeat;
+    transition: 0.3s;
 }
 
 .img-square:hover {
-    filter: invert();
+    transform: scale(103%);
+}
+
+.img-square-1 {
+    background: white url(./../img/pexels-pnw-production-7624930.jpg)
+    50% 50%/cover no-repeat;
+}
+
+.img-square-2 {
+    background: white url(./../img/pexels-flo-maderebner-869258.jpg)
+    50% 50%/cover no-repeat;
+}
+
+.img-square-3 {
+    background: white url(./../img/pexels-suliman-sallehi-1822458.jpg)
+    50% 80%/cover no-repeat;
 }
 
 .description-text {
     text-align: center;
-    color: #1F2937;
     font-size: 19px;
     font-weight: 600;
 }
